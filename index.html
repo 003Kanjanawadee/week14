@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Product App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+  <h1>Product Store</h1>
+
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="Search product..." />
+
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+    </select>
+
+    <select id="sortOrder">
+      <option value="default">Default</option>
+    </select>
+  </div>
+
+  <div id="productContainer">
+    <p id="loadingMessage"></p>
+    <p id="errorMessage" class="error"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
